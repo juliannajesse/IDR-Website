@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IDR – Our Works</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body class="page-works">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+    <div class="logo-wrapper">
+          <img src="./images/idr_logo.png" alt="IDR Logo" class="idr_logo_img">
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1 mt-2">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link active" href="works.html">Our Works</a></li>
+        <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+        <li class="nav-item ms-lg-2"><a class="btn-gold" href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container position-relative" style="z-index:1;">
+    <nav aria-label="breadcrumb" class="mb-3">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active anim-2">Our Works</li>
+      </ol>
+    </nav>
+    <div class="section-label anim-2">Portfolio</div>
+    <h1 class="anim-3">Our Works</h1>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="section-pad bg-navy">
+  <div class="container">
+    <div class="text-center mb-5">
+      <div class="section-label anim-4">50+ Projects Delivered</div>
+      <h2 class="section-title anim-4">Showcasing Our Finest Work</h2>
+      <div class="gold-divider"></div>
+      <p class="section-sub centered anim-5">Browse through our portfolio of completed projects across residential, commercial, and industrial categories.</p>
+
+      <!-- Filter Buttons -->
+      <div class="mt-4 d-flex flex-wrap justify-content-center">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="residential">Residential</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+        <button class="filter-btn" data-filter="interior">Interior</button>
+        <button class="filter-btn" data-filter="renovation">Renovation</button>
+      </div>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-category="residential">
+        <div class="portfolio-card" data-bs-toggle="modal" data-bs-target="#worksLuxuryVillaModal" role="button" tabindex="0">
+          <div class="portfolio-thumb" style="font-size:4rem;">
+            <img src="images/WhatsApp Image 2026-06-14 at 12.43.20.jpeg" alt="Tivoli">
+            <div class="portfolio-overlay">
+              <div class="text-center">
+                <div style="font-family:var(--font-head);font-size:1.1rem;color:var(--gold);margin-bottom:0.5rem;">Luxury Villa</div>
+                <div style="font-size:0.8rem;color:var(--text-light);">Chennai, 2024</div>
+                <button type="button" class="btn-gold mt-3">View Project</button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-cat">Residential</div>
+            <h5>Tivoli Garden's Apartments</h5>
+            <p>Complete 4BHK villa renovation with premium Italian marble flooring, custom woodwork, and smart lighting.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-category="commercial">
+        <div class="portfolio-card" data-bs-toggle="modal" data-bs-target="#worksOfficeModal" role="button" tabindex="0">
+          <div class="portfolio-thumb" style="font-size:4rem;">
+             <img src="images/dlf3.jpeg" alt="Corporate Office">
+            <div class="portfolio-overlay">
+              <div class="text-center">
+                <div style="font-family:var(--font-head);font-size:1.1rem;color:var(--gold);margin-bottom:0.5rem;">Corporate Office</div>
+                <div style="font-size:0.8rem;color:var(--text-light);">Chennai, 2024</div>
+                <button type="button" class="btn-gold mt-3">View Project</button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-cat">Commercial</div>
+            <h5>DLF</h5>
+            <p>5,000 sq ft open-plan office fit-out with ergonomic furniture, acoustic panels, and modern meeting rooms.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-category="interior">
+        <div class="portfolio-card" data-bs-toggle="modal" data-bs-target="#worksKitchenModal" role="button" tabindex="0">
+          <div class="portfolio-thumb">
+             <img src="images/mk1.jpg" alt="=mk">
+            <div class="portfolio-overlay">
+              <div class="text-center">
+                <div style="font-family:var(--font-head);font-size:1.1rem;color:var(--gold);margin-bottom:0.5rem;">Modular Kitchen</div>
+                <div style="font-size:0.8rem;color:var(--text-light);">Anna Nagar, 2024</div>
+                <button type="button" class="btn-gold mt-3">View Project</button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-cat">Interior</div>
+            <h5>Modular Kitchen</h5>
+            <p>High-gloss modular kitchen with Blum hardware, quartz countertop, and under-cabinet LED lighting.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-category="renovation">
+        <div class="portfolio-card" data-bs-toggle="modal" data-bs-target="#worksApartmentModal" role="button" tabindex="0">
+          <div class="portfolio-thumb" style="font-size:4rem;">
+             <img src="images/ch1.jpeg" alt="Corporate Office">
+            <div class="portfolio-overlay">
+              <div class="text-center">
+                <div style="font-family:var(--font-head);font-size:1.1rem;color:var(--gold);margin-bottom:0.5rem;">Apartment Redo</div>
+                <div style="font-size:0.8rem;color:var(--text-light);">Velachery, 2023</div>
+                <button type="button" class="btn-gold mt-3">View Project</button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-cat">Renovation</div>
+            <h5>ECI Church</h5>
+            <p>Complete gut renovation of a 1200 sq ft apartment including new flooring, paint, false ceiling, and fixtures.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-category="commercial">
+        <div class="portfolio-card" data-bs-toggle="modal" data-bs-target="#worksShowroomModal" role="button" tabindex="0">
+          <div class="portfolio-thumb" style="font-size:4rem;">
+             <img src="images/vgp1.jpeg" alt="vgp">
+            <div class="portfolio-overlay">
+              <div class="text-center">
+                <div style="font-family:var(--font-head);font-size:1.1rem;color:var(--gold);margin-bottom:0.5rem;">Retail Showroom</div>
+                <div style="font-size:0.8rem;color:var(--text-light);">T. Nagar, 2023</div>
+                <button type="button" class="btn-gold mt-3">View Project</button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-cat">Commercial</div>
+            <h5>VGP</h5>
+            <p>Opulent jewellery showroom design with display cabinets, ambient track lighting, and premium wall cladding.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-category="residential">
+        <div class="portfolio-card" data-bs-toggle="modal" data-bs-target="#worksNewBuildModal" role="button" tabindex="0">
+          <div class="portfolio-thumb" style="font-size:4rem;">🏡
+            <div class="portfolio-overlay">
+              <div class="text-center">
+                <div style="font-family:var(--font-head);font-size:1.1rem;color:var(--gold);margin-bottom:0.5rem;">Independent House</div>
+                <div style="font-size:0.8rem;color:var(--text-light);">OMR, 2023</div>
+                <button type="button" class="btn-gold mt-3">View Project</button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-cat">Residential</div>
+            <h5>New Build — OMR, Chennai</h5>
+            <p>Ground-up construction of a G+2 independent house with modern architecture and eco-friendly materials.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-category="interior">
+        <div class="portfolio-card" data-bs-toggle="modal" data-bs-target="#worksLivingRoomModal" role="button" tabindex="0">
+          <div class="portfolio-thumb" style="font-size:4rem;">🪑
+            <div class="portfolio-overlay">
+              <div class="text-center">
+                <div style="font-family:var(--font-head);font-size:1.1rem;color:var(--gold);margin-bottom:0.5rem;">Living Room</div>
+                <div style="font-size:0.8rem;color:var(--text-light);">Porur, 2022</div>
+                <button type="button" class="btn-gold mt-3">View Project</button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-cat">Interior</div>
+            <h5>Living Room Redesign — Porur</h5>
+            <p>Complete living room transformation with feature wall, custom sofa, pop ceiling design, and ambient lighting.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-category="renovation">
+        <div class="portfolio-card" data-bs-toggle="modal" data-bs-target="#worksBathroomModal" role="button" tabindex="0">
+          <div class="portfolio-thumb" style="font-size:4rem;">🚿
+            <div class="portfolio-overlay">
+              <div class="text-center">
+                <div style="font-family:var(--font-head);font-size:1.1rem;color:var(--gold);margin-bottom:0.5rem;">Bathroom</div>
+                <div style="font-size:0.8rem;color:var(--text-light);">Nungambakkam, 2022</div>
+                <button type="button" class="btn-gold mt-3">View Project</button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-cat">Renovation</div>
+            <h5>Luxury Bathroom — Nungambakkam</h5>
+            <p>Complete bathroom renovation with rain shower, freestanding tub, LED mirrors, and imported tiles.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item" data-category="commercial">
+        <div class="portfolio-card" data-bs-toggle="modal" data-bs-target="#worksRestaurantModal" role="button" tabindex="0">
+          <div class="portfolio-thumb" style="font-size:4rem;">
+            <img src="images/WhatsApp Image 2026-06-14 at 12.17.10.jpeg" alt="">
+            <div class="portfolio-overlay">
+              <div class="text-center">
+                <div style="font-family:var(--font-head);font-size:1.1rem;color:var(--gold);margin-bottom:0.5rem;">Restaurant</div>
+                <div style="font-size:0.8rem;color:var(--text-light);">Mylapore, 2022</div>
+                <button type="button" class="btn-gold mt-3">View Project</button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-cat">Commercial</div>
+            <h5>Restaurant Fit-out — Mylapore</h5>
+             <img src="images/.jpeg" alt="">
+            <p>60-cover restaurant interior with custom wooden panelling, industrial-style pendant lights, and open kitchen.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CTA -->
+    <div class="text-center mt-5">
+      <p style="color:var(--text-light);margin-bottom:1.5rem;">Inspired by our work? Let's bring your vision to life.</p>
+      <a href="contact.html" class="btn-gold">Start Your Project</a>
+    </div>
+  </div>
+</section>
+
+<!-- Project Image Popups -->
+<div class="modal fade project-modal" id="worksLuxuryVillaModal" tabindex="-1" aria-labelledby="worksLuxuryVillaModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <div class="portfolio-cat mb-1">Residential</div>
+          <h5 class="modal-title" id="worksLuxuryVillaModalLabel">Tivoli
+          </h5>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="project-popup-grid">
+          <img src="images/sp1.jpeg" alt="Tivoli">
+          <img src="images/sp2.jpeg" alt="Tivoli">
+          <img src="images/sp3.jpeg" alt="Tivoli">
+          <img src="images/sp4.jpeg" alt="Tivoli">
+          <img src="images/sp5.jpeg" alt="Tivoli">
+          <img src="images/sp6.jpeg" alt="Tivoli">
+          <!-- <div class="project-popup-placeholder">Images will be added soon</div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade project-modal" id="worksOfficeModal" tabindex="-1" aria-labelledby="worksOfficeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <div class="portfolio-cat mb-1">Commercial</div>
+          <h5 class="modal-title" id="worksOfficeModalLabel">DLF</h5>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="project-popup-grid">
+          <img src="images/dlf3.jpeg" alt="">
+          <img src="images/dlf1.jpeg" alt="IT Office project image">
+          <img src="images/dlf2.jpeg" alt="IT Office project image">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade project-modal" id="worksKitchenModal" tabindex="-1" aria-labelledby="worksKitchenModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <div class="portfolio-cat mb-1">Interior</div>
+          <h5 class="modal-title" id="worksKitchenModalLabel">Modular Kitchen</h5>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="project-popup-grid">
+          <img src="images/mk1.jpg" alt="">
+          <img src="images/mk2.jpg" alt="">
+          <img src="images/mk3.jpg" alt="">
+          <!-- <div class="project-popup-placeholder">Images will be added soon</div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade project-modal" id="worksApartmentModal" tabindex="-1" aria-labelledby="worksApartmentModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <div class="portfolio-cat mb-1">Renovation</div>
+          <h5 class="modal-title" id="worksApartmentModalLabel">ECI Church</h5>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="project-popup-grid">
+          <img src="images/ch1.jpeg" alt="">
+          <img src="images/ch2.jpeg" alt="">
+          <img src="images/ch3.jpeg" alt="">
+          <img src="images/ch4.jpeg" alt="">
+          <img src="images/5.jpeg" alt="">
+          <img src="images/ch6.jpeg" alt="">
+          <img src="images/ch7.jpeg" alt="">
+          <img src="images/ch8.jpeg" alt="">
+          <!-- <div class="project-popup-placeholder">Images will be added soon</div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade project-modal" id="worksShowroomModal" tabindex="-1" aria-labelledby="worksShowroomModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <div class="portfolio-cat mb-1">Commercial</div>
+          <h5 class="modal-title" id="worksShowroomModalLabel">VGP</h5>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="project-popup-grid">
+          <img src="images/vgp1.jpeg" alt="">
+          <img src="images/vgp2.jpeg" alt="">
+          <img src="images/vgp3.jpeg" alt="">
+          <img src="images/vgp4.jpeg" alt="">
+          <img src="images/vgp5.jpeg" alt="">
+          <!-- <div class="project-popup-placeholder">Images will be added soon</div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade project-modal" id="worksNewBuildModal" tabindex="-1" aria-labelledby="worksNewBuildModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <div class="portfolio-cat mb-1">Residential</div>
+          <h5 class="modal-title" id="worksNewBuildModalLabel">New Build — OMR, Chennai</h5>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="project-popup-grid">
+          <div class="project-popup-placeholder">Images will be added soon</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade project-modal" id="worksLivingRoomModal" tabindex="-1" aria-labelledby="worksLivingRoomModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <div class="portfolio-cat mb-1">Interior</div>
+          <h5 class="modal-title" id="worksLivingRoomModalLabel">Modular Kitchen</h5>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="project-popup-grid">
+          <img src="images/"
+          <div class="project-popup-placeholder">Images will be added soon</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade project-modal" id="worksBathroomModal" tabindex="-1" aria-labelledby="worksBathroomModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <div class="portfolio-cat mb-1">Renovation</div>
+          <h5 class="modal-title" id="worksBathroomModalLabel">Luxury Bathroom — Nungambakkam</h5>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="project-popup-grid">
+          <div class="project-popup-placeholder">Images will be added soon</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade project-modal" id="worksRestaurantModal" tabindex="-1" aria-labelledby="worksRestaurantModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <div class="portfolio-cat mb-1">Commercial</div>
+          <h5 class="modal-title" id="worksRestaurantModalLabel">Copper Chimney</h5>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="project-popup-grid">
+          <img src="images/WhatsApp Image 2026-06-12 at 20.41.02.jpeg" alt="">
+          <img src="images/WhatsApp Image 2026-06-12 at 20.41.03.jpeg" alt="">
+          <img src="images/WhatsApp Image 2026-06-12 at 20.41.04.jpeg" alt="">
+          <img src="images/WhatsApp Image 2026-06-12 at 20.41.07 (1).jpeg" alt="">
+          <img src="images/WhatsApp Image 2026-06-12 at 20.41.07.jpeg" alt="">
+          <!-- <div class="project-popup-placeholder">Images will be added soon</div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-4">
+        <div class="footer-brand">IDR</div>
+        <p>Indian Dream Renovation — quality construction, renovation, and interior solutions since 2012.</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/idr.indiandreamrenovation?igsh=Y2hyNWhzZ3U1ZnRw" class="social-link"><i class="bi bi-instagram"></i></a>
+          <a href="https://wa.me/919345834245?text=Hi%20IDR%2C%20I%20would%20like%20to%20discuss%20a%20construction%20or%20renovation%20project." class="social-link" target="_blank" rel="noopener" title="Chat on WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          <!-- <a href="#" class="social-link"><i class="bi bi-facebook"></i></a> -->
+          <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-2 col-6">
+        <h6>Pages</h6>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="works.html">Our Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-6">
+        <h6>Categories</h6>
+        <ul class="footer-links">
+          <li><a href="works.html">Residential</a></li>
+          <li><a href="works.html">Commercial</a></li>
+          <li><a href="works.html">Interior</a></li>
+          <li><a href="works.html">Renovation</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h6>Contact</h6>
+        <ul class="footer-links" style="list-style:none;padding:0;">
+          <li class="d-flex gap-2 mb-2"><i class="bi bi-geo-alt text-gold"></i><span>Chennai, Tamil Nadu, India</span></li>
+          <li class="d-flex gap-2 mb-2"><i class="bi bi-telephone text-gold"></i><span>+91 9345834245</span></li>
+          <li class="d-flex gap-2 mb-2"><i class="bi bi-envelope text-gold"></i><span>indiandreamrenovation@gmail.com</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom d-flex flex-wrap justify-content-between align-items-center gap-2">
+      <p>© 2025 Indian Dream Renovation. All Rights Reserved.</p>
+      <p>Designed with <span style="color:var(--gold)">♥</span> for excellence</p>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/919345834245?text=Hi%20IDR%2C%20I%20would%20like%20to%20discuss%20a%20construction%20or%20renovation%20project." class="whatsapp-float" target="_blank" rel="noopener" title="Chat on WhatsApp"><i class="bi bi-whatsapp"></i></a>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

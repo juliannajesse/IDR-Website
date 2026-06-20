@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IDR – Contact Us</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body class="page-contact">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+    <div class="logo-wrapper">
+          <img src="./images/idr_logo.png" alt="IDR Logo" class="idr_logo_img">
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1 mt-2">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="works.html">Our Works</a></li>
+        <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+        <li class="nav-item ms-lg-2"><a class="btn-gold active" href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container position-relative" style="z-index:1;">
+    <nav aria-label="breadcrumb" class="mb-3">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active">Contact Us</li>
+      </ol>
+    </nav>
+    <div class="section-label">Get In Touch</div>
+    <h1>Contact Us</h1>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section-pad bg-navy">
+  <div class="container">
+    <div class="row g-5">
+
+      <!-- Left: Info -->
+      <div class="col-lg-5">
+        <div class="section-label">Reach Out</div>
+        <h2 class="section-title">Let's Discuss Your Project</h2>
+        <div class="gold-divider left"></div>
+        <p style="color:var(--text-light);line-height:1.9;margin-bottom:2rem;">Whether you're planning a new build, renovation, or interior project — we're here to help. Get in touch and we'll respond within 24 hours with a free consultation.</p>
+
+        <div class="contact-info-card">
+          <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+          <div>
+            <h6>Our Office</h6>
+            <p>3, Kamarajar Street Taramani-velachery main road, PO, Thanthai Periyar Nagar, TTTI, Tharamani, Chennai, Tamil Nadu 600113</p>
+          </div>
+        </div>
+
+        <div class="contact-info-card">
+          <div class="contact-icon"><i class="bi bi-telephone-fill"></i></div>
+          <div>
+            <h6>Phone / WhatsApp</h6>
+            <p>+91 7358499017<br>+91 7305703777</p>
+          </div>
+        </div>
+
+        <div class="contact-info-card">
+          <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+          <div>
+            <h6>Email</h6>
+            <p>indiandreamrenovation@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="contact-info-card">
+          <div class="contact-icon"><i class="bi bi-clock-fill"></i></div>
+          <div>
+            <h6>Working Hours</h6>
+            <p>Monday – Saturday: 9:30 AM – 7:00 PM</p>
+          </div>
+        </div>
+
+        <!-- Social -->
+        <div class="mt-4">
+          <div style="font-size:0.74rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;">Follow Us</div>
+          <div class="social-links">
+            <a href="https://www.instagram.com/idr.indiandreamrenovation?igsh=Y2hyNWhzZ3U1ZnRw" class="social-link"><i class="bi bi-instagram"></i></a>
+            <a href="https://wa.me/919345834245?text=Hi%20IDR%2C%20I%20would%20like%20to%20discuss%20a%20construction%20or%20renovation%20project." class="social-link" target="_blank" rel="noopener" title="Chat on WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            <!-- <a href="#" class="social-link"><i class="bi bi-facebook"></i></a> -->
+            <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+         
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <div class="col-lg-7">
+        <div class="form-card">
+          <div class="section-label mb-1">Quick Enquiry</div>
+          <h4 style="font-family:var(--font-head);color:var(--white);margin-bottom:1.5rem;">Send Us a Message</h4>
+
+          <form id="contactForm" novalidate>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label class="form-label">Full Name *</label>
+                <input type="text" class="form-control" placeholder="Your full name" required/>
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label">Phone Number *</label>
+                <input type="tel" class="form-control" placeholder="+91 XXXXX XXXXX" required/>
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label">Email Address</label>
+                <input type="email" class="form-control" placeholder="you@example.com"/>
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label">Project Type *</label>
+                <select class="form-select" required>
+                  <option value="" disabled selected>Select type</option>
+                  <option>New Construction</option>
+                  <option>Home Renovation</option>
+                  <option>Interior Design</option>
+                  <option>Commercial Fit-out</option>
+                  <option>Electrical / Plumbing</option>
+                  <option>Landscaping / Exterior</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label">Budget Range</label>
+                <select class="form-select">
+                  <option value="" disabled selected>Select budget</option>
+                  <option>Under ₹5 Lakhs</option>
+                  <option>₹5 – ₹15 Lakhs</option>
+                  <option>₹15 – ₹30 Lakhs</option>
+                  <option>₹30 – ₹60 Lakhs</option>
+                  <option>Above ₹60 Lakhs</option>
+                </select>
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label">Location</label>
+                <input type="text" class="form-control" placeholder="City / Area"/>
+              </div>
+              <div class="col-12">
+                <label class="form-label">Message *</label>
+                <textarea class="form-control" rows="4" placeholder="Tell us about your project requirements, timeline, or any specific questions…" required></textarea>
+              </div>
+              <div class="col-12 mt-2">
+                <button type="submit" class="btn-gold w-100" style="padding:1rem;">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAP PLACEHOLDER -->
+<!-- MAP PLACEHOLDER -->
+<section class="bg-navy-mid" style="padding:0 0 80px;">
+  <div class="container">
+    <div class="text-center mb-4">
+      <div class="section-label">Find Us</div>
+      <h3 style="font-family:var(--font-head);color:var(--white);">Our Location</h3>
+    </div>
+
+    <div class="map-placeholder">
+      <div>
+        <div style="font-size:2.5rem;margin-bottom:0.75rem;">📍</div>
+
+        <div style="color:var(--gold);font-weight:600;margin-bottom:0.25rem;">
+          Indian Dream Renovation
+        </div>
+
+        <div>
+          3, Kamarajar Street Taramani-velachery main road, PO, Thanthai Periyar Nagar, TTTI, Tharamani, Chennai, Tamil Nadu 600113
+        </div>
+
+        <br/>
+
+        <a href="https://maps.app.goo.gl/SNGVygUqhtZySTvHA"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="btn-outline-gold mt-3"
+           style="font-size:0.75rem;padding:0.5rem 1.4rem;">
+          Open in Google Maps
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-4">
+        <div class="footer-brand">IDR</div>
+        <p>Indian Dream Renovation — quality construction, renovation, and interior solutions since 2012.</p>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+          <a href="https://wa.me/919345834245?text=Hi%20IDR%2C%20I%20would%20like%20to%20discuss%20a%20construction%20or%20renovation%20project." class="social-link" target="_blank" rel="noopener" title="Chat on WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-2 col-6">
+        <h6>Pages</h6>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="works.html">Our Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-6">
+        <h6>Services</h6>
+        <ul class="footer-links">
+          <li><a href="services.html">New Construction</a></li>
+          <li><a href="services.html">Home Renovation</a></li>
+          <li><a href="services.html">Interior Design</a></li>
+          <li><a href="services.html">Civil Works</a></li>
+          <li><a href="services.html">Electrical &amp; Plumbing</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h6>Contact</h6>
+        <ul class="footer-links" style="list-style:none;padding:0;">
+          <li class="d-flex gap-2 mb-2"><i class="bi bi-geo-alt text-gold"></i><span>Chennai, Tamil Nadu, India</span></li>
+          <li class="d-flex gap-2 mb-2"><i class="bi bi-telephone text-gold"></i><span>+91 9345834245</span></li>
+          <li class="d-flex gap-2 mb-2"><i class="bi bi-envelope text-gold"></i><span>indiandreamrenovation@gmail.com</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom d-flex flex-wrap justify-content-between align-items-center gap-2">
+      <p>© 2025 Indian Dream Renovation. All Rights Reserved.</p>
+      <p>Designed with <span style="color:var(--gold)">♥</span> for excellence</p>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/919345834245?text=Hi%20IDR%2C%20I%20would%20like%20to%20discuss%20a%20construction%20or%20renovation%20project." class="whatsapp-float" target="_blank" rel="noopener" title="Chat on WhatsApp"><i class="bi bi-whatsapp"></i></a>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
